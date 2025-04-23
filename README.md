@@ -1,6 +1,6 @@
 # SmartConfigManager
 
-MySQL 설정 파라미터(tbl_config_setting_parameter)를 UI로 관리하는 Electron + React 데스크톱 앱.
+MySQL 설정 파라미터(tbl_config_setting_parameter)를 UI로 관리하는 로컬 Base Electron + React 데스크톱 앱.
 
 ## 시작하기
 ```bash
