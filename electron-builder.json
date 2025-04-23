@@ -1,0 +1,10 @@
+{
+  "appId": "com.smartconfigmanager",
+  "productName": "SmartConfigManager",
+  "directories": {
+    "output": "dist"
+  },
+  "win": {
+    "target": ["nsis", "portable"]
+  }
+}

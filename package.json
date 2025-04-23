@@ -1,0 +1,24 @@
+{
+  "name": "smart-config-manager",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "serve": "cd renderer && npm start",
+    "electron": "electron .",
+    "start": "concurrently \"npm:serve\" \"npm:electron\"",
+    "build-renderer": "cd renderer && npm run build",
+    "build": "npm run build-renderer && electron-builder"
+  },
+  "dependencies": {
+    "mysql2": "^3.0.0"
+  },
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-builder": "^24.6.0",
+    "concurrently": "^7.0.0"
+  },
+  "build": {
+    "appId": "com.smartconfigmanager",
+    "win": { "target": ["nsis", "portable"] }
+  }
+}

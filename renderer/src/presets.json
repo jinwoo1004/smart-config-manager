@@ -1,0 +1,27 @@
+{
+  "빌트인 스마트패스 체크사항": [
+    {
+      "param_type": "config",
+      "param_type_value": "config",
+      "param_name": "Apt.builtin.smartpass",
+      "param_name_value": "Y",
+      "param_comment": "빌트인 스마트패스여부"
+    },
+    {
+      "param_type": "config",
+      "param_type_value": "ftp",
+      "param_name": "smartpass_user",
+      "param_name_value": "smartpass",
+      "param_comment": "빌트인 스마트패스 ftp 계정"
+    }
+  ],
+  "신규단지 추가 체크사항": [
+    {
+      "param_type": "config",
+      "param_type_value": "config",
+      "param_name": "Apt.cardpass.conn",
+      "param_name_value": "Y",
+      "param_comment": "공용부 카드리더기 연동여부"
+    }
+  ]
+}
